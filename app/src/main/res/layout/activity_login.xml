@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    android:gravity="center">
+
+    <!-- Spacer to center the content vertically -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:gravity="left"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Let's Chat Text -->
+    <TextView
+        android:id="@+id/lets_chat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Chat!"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:gravity="left"
+        android:layout_gravity="start"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/username_input_background"/>
+
+    <!-- Go Button -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/go_button_background"/>
+
+    <!-- Spacer to center the content vertically -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
